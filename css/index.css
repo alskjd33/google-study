@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* font */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #333;
+}
+/* nav */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: right;
+  padding: 20px; 
+  background-color: antiquewhite;
+  font-family: "Noto Sans KR", sans-serif;
+  
+}
+nav * {
+    font-size: 14PX;
+    color: #555;
+    margin: 0 5PX;
+    cursor: pointer;
+}
+nav a img {
+    width: 15px;
+    opacity: 0.5;
+    margin-bottom: 3px;
+}
+#login{
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    background-color: #4484f3;
+    border: 0;
+    border-radius: 3px;
+    margin-right: 30px;
+}
+/* 메인 */
+.main_wrap{
+    text-align: center;
+    margin-top: 200PX;
+
+}
+/* 검색바 */
+.SEARCH_BAR{
+    width: 40%;
+    margin: 30px auto;
+    max-width: 560px;
+    min-width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 3px 25px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.SEARCH_BAR a img {
+    width: 24px;
+    margin-left: 5px;
+}
+.SEARCH_BAR i {
+    margin: 10px;
+}
+.SEARCH_BAR input{
+    width: 60%;
+    outline: none;
+    border: 0;
+    padding: 5px;
+}
+.plus{
+    width: 50%;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 350px;
+
+}
+.plus ul {
+    display: flex;
+    justify-content: space-between;
+}
+.plus ul li a {
+    width: 90px;
+/* flex */
+display: flex;
+flex-direction: column;
+}
